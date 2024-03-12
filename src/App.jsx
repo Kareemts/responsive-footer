@@ -43,7 +43,7 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <div className="flex gap-36">
+            <div className="flex  xl:gap-36">
               <div className="text-[18px] font-[400] ml-6 flex flex-col gap-2">
                 <p className="text-[32px] font-[600]">Gasellvinnare</p>
                 <img src={gasell} width={268} height={128} alt="gasell" />{" "}
