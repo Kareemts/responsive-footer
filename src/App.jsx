@@ -9,7 +9,7 @@ export default function App() {
       <footer className="relative">
         {/* desktop */}
         <div className="w-full h-[498px]  px-10 hidden lg:block  pt-20 bg-[#89BF50] fixed bottom-0 text-[#FFFFFF] ">
-          <div className="flex     2xl:justify-center">
+          <div className="flex 2xl:justify-center">
             <div className="flex lg:gap-10 xl:gap-20  ">
               <div className="text-[20px] font-[400] text-nowrap">
                 <h4 className="text-[32px] font-[600]">Kontakt</h4>
@@ -44,11 +44,11 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <div className="flex  xl:gap-36">
+            <div className="flex lg:gap-10 xl:gap-36">
               <div className="text-[18px] font-[400] ml-6 flex flex-col gap-2">
                 <p className="text-[32px] font-[600]">Gasellvinnare</p>
                 <img src={gasell} width={268} height={128} alt="gasell" />{" "}
-                <p className="text-[12px] font-[300] w-[284px]">
+                <p className="text-[12px] font-[300] xl:w-[284px]">
                   Med målet att vara marknadsledande, kombinerar Egestam och
                   Mattsson expertkunskap, engagemang och innovation för att
                   bygga varaktiga kundrelationer och leverera arbete med fokus
@@ -61,7 +61,7 @@ export default function App() {
                   width={164}
                   height={104}
                   alt="em"
-                  className="w-[164px] h-[104px]"
+                  className=" min-w-[80px] w-[164px] h-[104px]"
                 />{" "}
               </div>
             </div>
