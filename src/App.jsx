@@ -72,8 +72,8 @@ export default function App() {
           </p>
         </div>
         {/* below tab screen */}
-        <div className="flex   px-5 md:items-end md:pb-[40px]  md:justify-start xl:hidden  h-[618px] md:h-[597px] bg-[#89BF50] w-full fixed bottom-0 text-[#FFFFFF] ">
-          <div className="flex flex-col  px-5 md:px-8 ">
+        <div className="flex   px-6 md:px-0 md:items-end md:pb-[40px]  md:justify-start xl:hidden  h-[618px] md:h-[597px] bg-[#89BF50] w-full fixed bottom-0 text-[#FFFFFF] ">
+          <div className="flex flex-col   md:px-8 ">
             <div className="md:text-[16px]  font-[400] text-nowrap">
               <img
                 src={em}
