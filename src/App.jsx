@@ -9,7 +9,7 @@ export default function App() {
       <footer className="relative">
         {/* desktop */}
         <div className="w-full h-[498px]   px-10 hidden xl:block  pt-14 bg-[#89BF50] fixed bottom-0 text-[#FFFFFF] ">
-          <div className="flex justify-between gap-10 2xl:gap-20">
+          <div className="flex justify-between gap-8 2xl:gap-14">
             <div className="flex justify-between w-full gap-14  ">
               <div className="text-[20px] font-[400] text-nowrap">
                 <h4 className="text-[32px] font-[600]">Kontakt</h4>
@@ -44,7 +44,7 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-between w-full gap-5 ">
+            <div className="flex justify-between w-full gap-14 ">
               <div className="text-[18px] font-[400] flex flex-col gap-2">
                 <p className="text-[32px] font-[600]">Gasellvinnare</p>
                 <img src={gasell} width={268} height={128} alt="gasell" />{" "}
